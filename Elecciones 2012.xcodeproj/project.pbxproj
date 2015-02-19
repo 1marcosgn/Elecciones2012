@@ -1,0 +1,875 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F39A1EA15A48ADB004A034F /* tlax.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F39A1E915A48ADB004A034F /* tlax.png */; };
+		7F39A1ED15A48C1C004A034F /* captura.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F39A1EC15A48C1C004A034F /* captura.png */; };
+		7F90BC861553318B00AEA44C /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F90BC851553318B00AEA44C /* MessageUI.framework */; };
+		7F90BC8D155333C600AEA44C /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F90BC8C155333C600AEA44C /* Twitter.framework */; };
+		7F90BC8F155333CE00AEA44C /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F90BC8E155333CE00AEA44C /* Accounts.framework */; };
+		7FA1B1B11554466100B4B600 /* denuncia.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA1B1B01554466100B4B600 /* denuncia.m */; };
+		7FC2A27C1565580500693759 /* ife_.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FC2A27A1565580500693759 /* ife_.png */; };
+		7FC2A27D1565580500693759 /* ife.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7FC2A27B1565580500693759 /* ife.jpg */; };
+		7FC2A28015656B1100693759 /* pana_nitoBanner.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FC2A27F15656B1100693759 /* pana_nitoBanner.png */; };
+		7FC30D0A15584F1200D940DA /* amlo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7FC30D0615584F1200D940DA /* amlo.jpg */; };
+		7FC30D0B15584F1200D940DA /* jvm.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7FC30D0715584F1200D940DA /* jvm.jpeg */; };
+		7FC30D0C15584F1200D940DA /* nieto.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7FC30D0815584F1200D940DA /* nieto.jpeg */; };
+		7FC30D0D15584F1200D940DA /* quadri.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7FC30D0915584F1200D940DA /* quadri.jpeg */; };
+		7FC30D1015584FB400D940DA /* nuevaalianza.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FC30D0F15584FB400D940DA /* nuevaalianza.png */; };
+		7FC30D1615588ABE00D940DA /* elipse.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FC30D1515588ABE00D940DA /* elipse.png */; };
+		7FCB0A891565A1FC00A653C5 /* fepade.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FCB0A881565A1FC00A653C5 /* fepade.png */; };
+		7FCB0A8C1565A29C00A653C5 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FCB0A8B1565A29C00A653C5 /* AddressBook.framework */; };
+		7FCB0A8E1565A5BB00A653C5 /* Agregar01.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FCB0A8D1565A5BB00A653C5 /* Agregar01.png */; };
+		7FCB0A901565A76600A653C5 /* ask.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FCB0A8F1565A76600A653C5 /* ask.png */; };
+		7FCB0A931565A92F00A653C5 /* backWeb.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FCB0A911565A92F00A653C5 /* backWeb.png */; };
+		7FCB0A941565A92F00A653C5 /* goWeb.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FCB0A921565A92F00A653C5 /* goWeb.png */; };
+		7FCB0A961565B90100A653C5 /* ubicacion.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FCB0A951565B90100A653C5 /* ubicacion.png */; };
+		7FD02E6A1566908600165CC7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FD02E691566908600165CC7 /* MapKit.framework */; };
+		7FD02E731566982800165CC7 /* ubicacion_.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FD02E721566982800165CC7 /* ubicacion_.png */; };
+		7FD02E771566A66400165CC7 /* fipadeBrown.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FD02E741566A66400165CC7 /* fipadeBrown.png */; };
+		7FD02E781566A66400165CC7 /* fipadeLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FD02E751566A66400165CC7 /* fipadeLogo.png */; };
+		7FD02E791566A66400165CC7 /* fipadeYellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FD02E761566A66400165CC7 /* fipadeYellow.png */; };
+		7FD02E831566A9E300165CC7 /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FD02E821566A9E300165CC7 /* info.png */; };
+		7FD02E861566AF2C00165CC7 /* ContactoEmpresa.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD02E851566AF2C00165CC7 /* ContactoEmpresa.m */; };
+		7FD0EBF31562990A004E81E8 /* head.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FD0EBF21562990A004E81E8 /* head.png */; };
+		7FD0EBFA15629B03004E81E8 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FD0EBF915629B03004E81E8 /* back.png */; };
+		7FD0EBFC15629EC8004E81E8 /* save.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FD0EBFB15629EC8004E81E8 /* save.png */; };
+		7FD0EBFF1562A006004E81E8 /* save01.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FD0EBFD1562A006004E81E8 /* save01.png */; };
+		7FD0EC001562A006004E81E8 /* tweet.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FD0EBFE1562A006004E81E8 /* tweet.png */; };
+		7FD0EC021562A064004E81E8 /* sv.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FD0EC011562A064004E81E8 /* sv.png */; };
+		7FD0EC041562A10D004E81E8 /* web.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FD0EC031562A10D004E81E8 /* web.png */; };
+		7FD0EC071562A14C004E81E8 /* web1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FD0EC051562A14C004E81E8 /* web1.png */; };
+		7FD0EC081562A14C004E81E8 /* web2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FD0EC061562A14C004E81E8 /* web2.png */; };
+		7FD0EC0A1562A428004E81E8 /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FD0EC091562A428004E81E8 /* check.png */; };
+		7FD0EC0C1562A731004E81E8 /* cel01.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FD0EC0B1562A731004E81E8 /* cel01.png */; };
+		7FD0EC0E1562A7E5004E81E8 /* cel02.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FD0EC0D1562A7E5004E81E8 /* cel02.png */; };
+		7FD0EC101562AA22004E81E8 /* backfoto.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FD0EC0F1562AA22004E81E8 /* backfoto.png */; };
+		7FD0EC121562AADB004E81E8 /* foto.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FD0EC111562AADB004E81E8 /* foto.png */; };
+		7FD0EC141562AB3A004E81E8 /* mail.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FD0EC131562AB3A004E81E8 /* mail.png */; };
+		7FD0EC1A1562B9FD004E81E8 /* lupa.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FD0EC191562B9FD004E81E8 /* lupa.png */; };
+		7FD0EC1F1562BDB4004E81E8 /* aceptar.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FD0EC1B1562BDB4004E81E8 /* aceptar.png */; };
+		7FD0EC201562BDB4004E81E8 /* capturar.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FD0EC1C1562BDB4004E81E8 /* capturar.png */; };
+		7FD0EC211562BDB4004E81E8 /* compartir.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FD0EC1D1562BDB4004E81E8 /* compartir.png */; };
+		7FD0EC221562BDB4004E81E8 /* estado.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FD0EC1E1562BDB4004E81E8 /* estado.png */; };
+		7FD0EC251562C5AA004E81E8 /* candidatos.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FD0EC231562C5AA004E81E8 /* candidatos.png */; };
+		7FD0EC261562C5AA004E81E8 /* perfil.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FD0EC241562C5AA004E81E8 /* perfil.png */; };
+		7FD0EC2A1562C5B3004E81E8 /* denuncia.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FD0EC271562C5B3004E81E8 /* denuncia.png */; };
+		7FD0EC2B1562C5B3004E81E8 /* noticias.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FD0EC281562C5B3004E81E8 /* noticias.png */; };
+		7FD0EC2C1562C5B3004E81E8 /* vox.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FD0EC291562C5B3004E81E8 /* vox.png */; };
+		7FD0EC301562D0E8004E81E8 /* icono.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FD0EC2F1562D0E8004E81E8 /* icono.png */; };
+		7FD0EC321562D10B004E81E8 /* icono copia.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FD0EC311562D10B004E81E8 /* icono copia.png */; };
+		7FD0EC831563069B004E81E8 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7FD0EC821563069B004E81E8 /* Settings.bundle */; };
+		7FD2765415618193004AAE15 /* a.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FD2765015618193004AAE15 /* a.png */; };
+		7FD2765515618193004AAE15 /* e.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FD2765115618193004AAE15 /* e.png */; };
+		7FD2765615618193004AAE15 /* j.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FD2765215618193004AAE15 /* j.png */; };
+		7FD2765715618193004AAE15 /* q.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FD2765315618193004AAE15 /* q.png */; };
+		7FD2765A156181FF004AAE15 /* q1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FD27659156181FF004AAE15 /* q1.png */; };
+		7FD2765F15618359004AAE15 /* perfilAmlo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FD2765B15618359004AAE15 /* perfilAmlo.png */; };
+		7FD2766015618359004AAE15 /* perfilJvm.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FD2765C15618359004AAE15 /* perfilJvm.png */; };
+		7FD2766115618359004AAE15 /* perfilNieto.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FD2765D15618359004AAE15 /* perfilNieto.png */; };
+		7FD2766215618359004AAE15 /* perfilquadri.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FD2765E15618359004AAE15 /* perfilquadri.png */; };
+		7FD27667156186DB004AAE15 /* banneramlo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FD27663156186DB004AAE15 /* banneramlo.png */; };
+		7FD27668156186DB004AAE15 /* bannerjvm.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FD27664156186DB004AAE15 /* bannerjvm.png */; };
+		7FD27669156186DB004AAE15 /* bannernieto.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FD27665156186DB004AAE15 /* bannernieto.png */; };
+		7FD2766A156186DB004AAE15 /* bannerquadri.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FD27666156186DB004AAE15 /* bannerquadri.png */; };
+		7FD2766C156189BB004AAE15 /* alianza.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FD2766B156189BB004AAE15 /* alianza.png */; };
+		7FD2766E15618A00004AAE15 /* alianza1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FD2766D15618A00004AAE15 /* alianza1.png */; };
+		7FD2767115618A2B004AAE15 /* Candidatos.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD2767015618A2B004AAE15 /* Candidatos.m */; };
+		7FD8DBD31550800200B080FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FD8DBD21550800200B080FD /* UIKit.framework */; };
+		7FD8DBD51550800200B080FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FD8DBD41550800200B080FD /* Foundation.framework */; };
+		7FD8DBD71550800200B080FD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FD8DBD61550800200B080FD /* CoreGraphics.framework */; };
+		7FD8DBDD1550800200B080FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7FD8DBDB1550800200B080FD /* InfoPlist.strings */; };
+		7FD8DBDF1550800200B080FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD8DBDE1550800200B080FD /* main.m */; };
+		7FD8DBE31550800200B080FD /* Elecciones_2012AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD8DBE21550800200B080FD /* Elecciones_2012AppDelegate.m */; };
+		7FD8DBE61550800200B080FD /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FD8DBE41550800200B080FD /* MainStoryboard.storyboard */; };
+		7FD8DBE91550800200B080FD /* Elecciones_2012ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD8DBE81550800200B080FD /* Elecciones_2012ViewController.m */; };
+		7FD8DBF91550861F00B080FD /* Perfil.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD8DBF81550861F00B080FD /* Perfil.m */; };
+		7FD8DBFE1550908800B080FD /* pan.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FD8DBFB1550908800B080FD /* pan.png */; };
+		7FD8DBFF1550908800B080FD /* prd.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7FD8DBFC1550908800B080FD /* prd.jpeg */; };
+		7FD8DC001550908800B080FD /* pri.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7FD8DBFD1550908800B080FD /* pri.jpeg */; };
+		7FE52FD215545D7D0028F057 /* fondo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FE52FD115545D7D0028F057 /* fondo.png */; };
+		7FEE7D711558107E0075A585 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEE7D681558107E0075A585 /* NSObject+SBJSON.m */; };
+		7FEE7D721558107E0075A585 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEE7D6A1558107E0075A585 /* NSString+SBJSON.m */; };
+		7FEE7D731558107E0075A585 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEE7D6C1558107E0075A585 /* SBJsonBase.m */; };
+		7FEE7D741558107E0075A585 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEE7D6E1558107E0075A585 /* SBJsonParser.m */; };
+		7FEE7D751558107E0075A585 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEE7D701558107E0075A585 /* SBJsonWriter.m */; };
+		7FEE7D79155812740075A585 /* voxClase.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEE7D78155812740075A585 /* voxClase.m */; };
+		7FF7DB9A1551DBC7002BD8F3 /* Aguascalientes.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FF7DB7A1551DBC7002BD8F3 /* Aguascalientes.png */; };
+		7FF7DB9B1551DBC7002BD8F3 /* Baja-California-Sur.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FF7DB7B1551DBC7002BD8F3 /* Baja-California-Sur.png */; };
+		7FF7DB9C1551DBC7002BD8F3 /* Baja-California.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FF7DB7C1551DBC7002BD8F3 /* Baja-California.png */; };
+		7FF7DB9D1551DBC7002BD8F3 /* Campeche.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FF7DB7D1551DBC7002BD8F3 /* Campeche.png */; };
+		7FF7DB9E1551DBC7002BD8F3 /* Chiapas.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FF7DB7E1551DBC7002BD8F3 /* Chiapas.png */; };
+		7FF7DB9F1551DBC7002BD8F3 /* Chihuahua.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FF7DB7F1551DBC7002BD8F3 /* Chihuahua.png */; };
+		7FF7DBA01551DBC7002BD8F3 /* Coahuila.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FF7DB801551DBC7002BD8F3 /* Coahuila.png */; };
+		7FF7DBA11551DBC7002BD8F3 /* Colima.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FF7DB811551DBC7002BD8F3 /* Colima.png */; };
+		7FF7DBA21551DBC7002BD8F3 /* DF.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FF7DB821551DBC7002BD8F3 /* DF.png */; };
+		7FF7DBA31551DBC7002BD8F3 /* Durango.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FF7DB831551DBC7002BD8F3 /* Durango.png */; };
+		7FF7DBA41551DBC7002BD8F3 /* EstadoDeMexico.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FF7DB841551DBC7002BD8F3 /* EstadoDeMexico.png */; };
+		7FF7DBA51551DBC7002BD8F3 /* Guanajuato.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FF7DB851551DBC7002BD8F3 /* Guanajuato.png */; };
+		7FF7DBA61551DBC7002BD8F3 /* Guerrero.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FF7DB861551DBC7002BD8F3 /* Guerrero.png */; };
+		7FF7DBA71551DBC7002BD8F3 /* Hidalgo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FF7DB871551DBC7002BD8F3 /* Hidalgo.png */; };
+		7FF7DBA81551DBC7002BD8F3 /* Jalisco.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FF7DB881551DBC7002BD8F3 /* Jalisco.png */; };
+		7FF7DBA91551DBC7002BD8F3 /* Michoacan.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FF7DB891551DBC7002BD8F3 /* Michoacan.png */; };
+		7FF7DBAA1551DBC7002BD8F3 /* Morelos.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FF7DB8A1551DBC7002BD8F3 /* Morelos.png */; };
+		7FF7DBAB1551DBC7002BD8F3 /* Nayarit.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FF7DB8B1551DBC7002BD8F3 /* Nayarit.png */; };
+		7FF7DBAC1551DBC7002BD8F3 /* Nuevo-Leon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FF7DB8C1551DBC7002BD8F3 /* Nuevo-Leon.png */; };
+		7FF7DBAD1551DBC7002BD8F3 /* Oxaca.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FF7DB8D1551DBC7002BD8F3 /* Oxaca.png */; };
+		7FF7DBAE1551DBC7002BD8F3 /* Puebla.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FF7DB8E1551DBC7002BD8F3 /* Puebla.png */; };
+		7FF7DBAF1551DBC7002BD8F3 /* Queretaro.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FF7DB8F1551DBC7002BD8F3 /* Queretaro.png */; };
+		7FF7DBB01551DBC7002BD8F3 /* quintana-roo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FF7DB901551DBC7002BD8F3 /* quintana-roo.png */; };
+		7FF7DBB11551DBC7002BD8F3 /* san-luis-potosi.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FF7DB911551DBC7002BD8F3 /* san-luis-potosi.png */; };
+		7FF7DBB21551DBC7002BD8F3 /* Sinaloa.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FF7DB921551DBC7002BD8F3 /* Sinaloa.png */; };
+		7FF7DBB31551DBC7002BD8F3 /* sonora.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FF7DB931551DBC7002BD8F3 /* sonora.png */; };
+		7FF7DBB41551DBC7002BD8F3 /* tabasco.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FF7DB941551DBC7002BD8F3 /* tabasco.png */; };
+		7FF7DBB51551DBC7002BD8F3 /* tamaulipas.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FF7DB951551DBC7002BD8F3 /* tamaulipas.png */; };
+		7FF7DBB61551DBC7002BD8F3 /* tlaxcala.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FF7DB961551DBC7002BD8F3 /* tlaxcala.png */; };
+		7FF7DBB71551DBC7002BD8F3 /* veracruz.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FF7DB971551DBC7002BD8F3 /* veracruz.png */; };
+		7FF7DBB81551DBC7002BD8F3 /* yucatan.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FF7DB981551DBC7002BD8F3 /* yucatan.png */; };
+		7FF7DBB91551DBC7002BD8F3 /* Zacatecas.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FF7DB991551DBC7002BD8F3 /* Zacatecas.png */; };
+		7FF7DBBE1551DFB5002BD8F3 /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7FF7DBBB1551DFB5002BD8F3 /* 1.jpeg */; };
+		7FF7DBBF1551DFB5002BD8F3 /* pan2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FF7DBBC1551DFB5002BD8F3 /* pan2.png */; };
+		7FF7DBC01551DFB5002BD8F3 /* prd3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FF7DBBD1551DFB5002BD8F3 /* prd3.png */; };
+		7FF7DBC21551E9FF002BD8F3 /* movc.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FF7DBC11551E9FF002BD8F3 /* movc.png */; };
+		7FF7DBC51551EDEC002BD8F3 /* Noticias.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF7DBC41551EDEC002BD8F3 /* Noticias.m */; };
+		7FF7DBCC1551F232002BD8F3 /* comparte.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF7DBCB1551F232002BD8F3 /* comparte.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7F39A1E915A48ADB004A034F /* tlax.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tlax.png; sourceTree = "<group>"; };
+		7F39A1EC15A48C1C004A034F /* captura.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = captura.png; sourceTree = "<group>"; };
+		7F90BC851553318B00AEA44C /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		7F90BC8C155333C600AEA44C /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		7F90BC8E155333CE00AEA44C /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		7FA1B1AF1554466100B4B600 /* denuncia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = denuncia.h; sourceTree = "<group>"; };
+		7FA1B1B01554466100B4B600 /* denuncia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = denuncia.m; sourceTree = "<group>"; };
+		7FC2A27A1565580500693759 /* ife_.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ife_.png; sourceTree = "<group>"; };
+		7FC2A27B1565580500693759 /* ife.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ife.jpg; sourceTree = "<group>"; };
+		7FC2A27F15656B1100693759 /* pana_nitoBanner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pana_nitoBanner.png; sourceTree = "<group>"; };
+		7FC30D0615584F1200D940DA /* amlo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = amlo.jpg; sourceTree = "<group>"; };
+		7FC30D0715584F1200D940DA /* jvm.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jvm.jpeg; sourceTree = "<group>"; };
+		7FC30D0815584F1200D940DA /* nieto.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nieto.jpeg; sourceTree = "<group>"; };
+		7FC30D0915584F1200D940DA /* quadri.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = quadri.jpeg; sourceTree = "<group>"; };
+		7FC30D0F15584FB400D940DA /* nuevaalianza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nuevaalianza.png; sourceTree = "<group>"; };
+		7FC30D1515588ABE00D940DA /* elipse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = elipse.png; sourceTree = "<group>"; };
+		7FCB0A881565A1FC00A653C5 /* fepade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fepade.png; sourceTree = "<group>"; };
+		7FCB0A8B1565A29C00A653C5 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		7FCB0A8D1565A5BB00A653C5 /* Agregar01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Agregar01.png; sourceTree = "<group>"; };
+		7FCB0A8F1565A76600A653C5 /* ask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ask.png; sourceTree = "<group>"; };
+		7FCB0A911565A92F00A653C5 /* backWeb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backWeb.png; sourceTree = "<group>"; };
+		7FCB0A921565A92F00A653C5 /* goWeb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = goWeb.png; sourceTree = "<group>"; };
+		7FCB0A951565B90100A653C5 /* ubicacion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ubicacion.png; sourceTree = "<group>"; };
+		7FD02E691566908600165CC7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		7FD02E721566982800165CC7 /* ubicacion_.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ubicacion_.png; sourceTree = "<group>"; };
+		7FD02E741566A66400165CC7 /* fipadeBrown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fipadeBrown.png; sourceTree = "<group>"; };
+		7FD02E751566A66400165CC7 /* fipadeLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fipadeLogo.png; sourceTree = "<group>"; };
+		7FD02E761566A66400165CC7 /* fipadeYellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fipadeYellow.png; sourceTree = "<group>"; };
+		7FD02E821566A9E300165CC7 /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
+		7FD02E841566AF2C00165CC7 /* ContactoEmpresa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactoEmpresa.h; sourceTree = "<group>"; };
+		7FD02E851566AF2C00165CC7 /* ContactoEmpresa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactoEmpresa.m; sourceTree = "<group>"; };
+		7FD0EBF21562990A004E81E8 /* head.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = head.png; sourceTree = "<group>"; };
+		7FD0EBF915629B03004E81E8 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		7FD0EBFB15629EC8004E81E8 /* save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = save.png; sourceTree = "<group>"; };
+		7FD0EBFD1562A006004E81E8 /* save01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = save01.png; sourceTree = "<group>"; };
+		7FD0EBFE1562A006004E81E8 /* tweet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tweet.png; sourceTree = "<group>"; };
+		7FD0EC011562A064004E81E8 /* sv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sv.png; sourceTree = "<group>"; };
+		7FD0EC031562A10D004E81E8 /* web.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = web.png; sourceTree = "<group>"; };
+		7FD0EC051562A14C004E81E8 /* web1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = web1.png; sourceTree = "<group>"; };
+		7FD0EC061562A14C004E81E8 /* web2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = web2.png; sourceTree = "<group>"; };
+		7FD0EC091562A428004E81E8 /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check.png; sourceTree = "<group>"; };
+		7FD0EC0B1562A731004E81E8 /* cel01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cel01.png; sourceTree = "<group>"; };
+		7FD0EC0D1562A7E5004E81E8 /* cel02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cel02.png; sourceTree = "<group>"; };
+		7FD0EC0F1562AA22004E81E8 /* backfoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backfoto.png; sourceTree = "<group>"; };
+		7FD0EC111562AADB004E81E8 /* foto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foto.png; sourceTree = "<group>"; };
+		7FD0EC131562AB3A004E81E8 /* mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mail.png; sourceTree = "<group>"; };
+		7FD0EC191562B9FD004E81E8 /* lupa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lupa.png; sourceTree = "<group>"; };
+		7FD0EC1B1562BDB4004E81E8 /* aceptar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aceptar.png; sourceTree = "<group>"; };
+		7FD0EC1C1562BDB4004E81E8 /* capturar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = capturar.png; sourceTree = "<group>"; };
+		7FD0EC1D1562BDB4004E81E8 /* compartir.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compartir.png; sourceTree = "<group>"; };
+		7FD0EC1E1562BDB4004E81E8 /* estado.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = estado.png; sourceTree = "<group>"; };
+		7FD0EC231562C5AA004E81E8 /* candidatos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = candidatos.png; sourceTree = "<group>"; };
+		7FD0EC241562C5AA004E81E8 /* perfil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = perfil.png; sourceTree = "<group>"; };
+		7FD0EC271562C5B3004E81E8 /* denuncia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = denuncia.png; sourceTree = "<group>"; };
+		7FD0EC281562C5B3004E81E8 /* noticias.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noticias.png; sourceTree = "<group>"; };
+		7FD0EC291562C5B3004E81E8 /* vox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vox.png; sourceTree = "<group>"; };
+		7FD0EC2D1562CC25004E81E8 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		7FD0EC2F1562D0E8004E81E8 /* icono.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icono.png; sourceTree = "<group>"; };
+		7FD0EC311562D10B004E81E8 /* icono copia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icono copia.png"; sourceTree = "<group>"; };
+		7FD0EC821563069B004E81E8 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		7FD2765015618193004AAE15 /* a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a.png; sourceTree = "<group>"; };
+		7FD2765115618193004AAE15 /* e.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = e.png; sourceTree = "<group>"; };
+		7FD2765215618193004AAE15 /* j.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = j.png; sourceTree = "<group>"; };
+		7FD2765315618193004AAE15 /* q.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = q.png; sourceTree = "<group>"; };
+		7FD27659156181FF004AAE15 /* q1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = q1.png; sourceTree = "<group>"; };
+		7FD2765B15618359004AAE15 /* perfilAmlo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = perfilAmlo.png; sourceTree = "<group>"; };
+		7FD2765C15618359004AAE15 /* perfilJvm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = perfilJvm.png; sourceTree = "<group>"; };
+		7FD2765D15618359004AAE15 /* perfilNieto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = perfilNieto.png; sourceTree = "<group>"; };
+		7FD2765E15618359004AAE15 /* perfilquadri.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = perfilquadri.png; sourceTree = "<group>"; };
+		7FD27663156186DB004AAE15 /* banneramlo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banneramlo.png; sourceTree = "<group>"; };
+		7FD27664156186DB004AAE15 /* bannerjvm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bannerjvm.png; sourceTree = "<group>"; };
+		7FD27665156186DB004AAE15 /* bannernieto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bannernieto.png; sourceTree = "<group>"; };
+		7FD27666156186DB004AAE15 /* bannerquadri.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bannerquadri.png; sourceTree = "<group>"; };
+		7FD2766B156189BB004AAE15 /* alianza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alianza.png; sourceTree = "<group>"; };
+		7FD2766D15618A00004AAE15 /* alianza1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alianza1.png; sourceTree = "<group>"; };
+		7FD2766F15618A2B004AAE15 /* Candidatos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Candidatos.h; sourceTree = "<group>"; };
+		7FD2767015618A2B004AAE15 /* Candidatos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Candidatos.m; sourceTree = "<group>"; };
+		7FD8DBCE1550800200B080FD /* Elecciones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Elecciones.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FD8DBD21550800200B080FD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7FD8DBD41550800200B080FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7FD8DBD61550800200B080FD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7FD8DBDA1550800200B080FD /* Elecciones 2012-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Elecciones 2012-Info.plist"; sourceTree = "<group>"; };
+		7FD8DBDC1550800200B080FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7FD8DBDE1550800200B080FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7FD8DBE01550800200B080FD /* Elecciones 2012-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Elecciones 2012-Prefix.pch"; sourceTree = "<group>"; };
+		7FD8DBE11550800200B080FD /* Elecciones_2012AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Elecciones_2012AppDelegate.h; sourceTree = "<group>"; };
+		7FD8DBE21550800200B080FD /* Elecciones_2012AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Elecciones_2012AppDelegate.m; sourceTree = "<group>"; };
+		7FD8DBE51550800200B080FD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		7FD8DBE71550800200B080FD /* Elecciones_2012ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Elecciones_2012ViewController.h; sourceTree = "<group>"; };
+		7FD8DBE81550800200B080FD /* Elecciones_2012ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Elecciones_2012ViewController.m; sourceTree = "<group>"; };
+		7FD8DBF71550861F00B080FD /* Perfil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Perfil.h; sourceTree = "<group>"; };
+		7FD8DBF81550861F00B080FD /* Perfil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Perfil.m; sourceTree = "<group>"; };
+		7FD8DBFB1550908800B080FD /* pan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pan.png; sourceTree = "<group>"; };
+		7FD8DBFC1550908800B080FD /* prd.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = prd.jpeg; sourceTree = "<group>"; };
+		7FD8DBFD1550908800B080FD /* pri.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pri.jpeg; sourceTree = "<group>"; };
+		7FE52FD115545D7D0028F057 /* fondo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fondo.png; sourceTree = "<group>"; };
+		7FEE7D661558107E0075A585 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		7FEE7D671558107E0075A585 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		7FEE7D681558107E0075A585 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		7FEE7D691558107E0075A585 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		7FEE7D6A1558107E0075A585 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		7FEE7D6B1558107E0075A585 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		7FEE7D6C1558107E0075A585 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		7FEE7D6D1558107E0075A585 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		7FEE7D6E1558107E0075A585 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		7FEE7D6F1558107E0075A585 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		7FEE7D701558107E0075A585 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		7FEE7D77155812740075A585 /* voxClase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = voxClase.h; sourceTree = "<group>"; };
+		7FEE7D78155812740075A585 /* voxClase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = voxClase.m; sourceTree = "<group>"; };
+		7FF7DB7A1551DBC7002BD8F3 /* Aguascalientes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Aguascalientes.png; sourceTree = "<group>"; };
+		7FF7DB7B1551DBC7002BD8F3 /* Baja-California-Sur.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Baja-California-Sur.png"; sourceTree = "<group>"; };
+		7FF7DB7C1551DBC7002BD8F3 /* Baja-California.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Baja-California.png"; sourceTree = "<group>"; };
+		7FF7DB7D1551DBC7002BD8F3 /* Campeche.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Campeche.png; sourceTree = "<group>"; };
+		7FF7DB7E1551DBC7002BD8F3 /* Chiapas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chiapas.png; sourceTree = "<group>"; };
+		7FF7DB7F1551DBC7002BD8F3 /* Chihuahua.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chihuahua.png; sourceTree = "<group>"; };
+		7FF7DB801551DBC7002BD8F3 /* Coahuila.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Coahuila.png; sourceTree = "<group>"; };
+		7FF7DB811551DBC7002BD8F3 /* Colima.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Colima.png; sourceTree = "<group>"; };
+		7FF7DB821551DBC7002BD8F3 /* DF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DF.png; sourceTree = "<group>"; };
+		7FF7DB831551DBC7002BD8F3 /* Durango.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Durango.png; sourceTree = "<group>"; };
+		7FF7DB841551DBC7002BD8F3 /* EstadoDeMexico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EstadoDeMexico.png; sourceTree = "<group>"; };
+		7FF7DB851551DBC7002BD8F3 /* Guanajuato.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Guanajuato.png; sourceTree = "<group>"; };
+		7FF7DB861551DBC7002BD8F3 /* Guerrero.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Guerrero.png; sourceTree = "<group>"; };
+		7FF7DB871551DBC7002BD8F3 /* Hidalgo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hidalgo.png; sourceTree = "<group>"; };
+		7FF7DB881551DBC7002BD8F3 /* Jalisco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Jalisco.png; sourceTree = "<group>"; };
+		7FF7DB891551DBC7002BD8F3 /* Michoacan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Michoacan.png; sourceTree = "<group>"; };
+		7FF7DB8A1551DBC7002BD8F3 /* Morelos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Morelos.png; sourceTree = "<group>"; };
+		7FF7DB8B1551DBC7002BD8F3 /* Nayarit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nayarit.png; sourceTree = "<group>"; };
+		7FF7DB8C1551DBC7002BD8F3 /* Nuevo-Leon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Nuevo-Leon.png"; sourceTree = "<group>"; };
+		7FF7DB8D1551DBC7002BD8F3 /* Oxaca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Oxaca.png; sourceTree = "<group>"; };
+		7FF7DB8E1551DBC7002BD8F3 /* Puebla.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Puebla.png; sourceTree = "<group>"; };
+		7FF7DB8F1551DBC7002BD8F3 /* Queretaro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Queretaro.png; sourceTree = "<group>"; };
+		7FF7DB901551DBC7002BD8F3 /* quintana-roo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quintana-roo.png"; sourceTree = "<group>"; };
+		7FF7DB911551DBC7002BD8F3 /* san-luis-potosi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "san-luis-potosi.png"; sourceTree = "<group>"; };
+		7FF7DB921551DBC7002BD8F3 /* Sinaloa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sinaloa.png; sourceTree = "<group>"; };
+		7FF7DB931551DBC7002BD8F3 /* sonora.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sonora.png; sourceTree = "<group>"; };
+		7FF7DB941551DBC7002BD8F3 /* tabasco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabasco.png; sourceTree = "<group>"; };
+		7FF7DB951551DBC7002BD8F3 /* tamaulipas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tamaulipas.png; sourceTree = "<group>"; };
+		7FF7DB961551DBC7002BD8F3 /* tlaxcala.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tlaxcala.png; sourceTree = "<group>"; };
+		7FF7DB971551DBC7002BD8F3 /* veracruz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = veracruz.png; sourceTree = "<group>"; };
+		7FF7DB981551DBC7002BD8F3 /* yucatan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yucatan.png; sourceTree = "<group>"; };
+		7FF7DB991551DBC7002BD8F3 /* Zacatecas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Zacatecas.png; sourceTree = "<group>"; };
+		7FF7DBBB1551DFB5002BD8F3 /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
+		7FF7DBBC1551DFB5002BD8F3 /* pan2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pan2.png; sourceTree = "<group>"; };
+		7FF7DBBD1551DFB5002BD8F3 /* prd3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prd3.png; sourceTree = "<group>"; };
+		7FF7DBC11551E9FF002BD8F3 /* movc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = movc.png; sourceTree = "<group>"; };
+		7FF7DBC31551EDEC002BD8F3 /* Noticias.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Noticias.h; sourceTree = "<group>"; };
+		7FF7DBC41551EDEC002BD8F3 /* Noticias.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Noticias.m; sourceTree = "<group>"; };
+		7FF7DBCA1551F232002BD8F3 /* comparte.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = comparte.h; sourceTree = "<group>"; };
+		7FF7DBCB1551F232002BD8F3 /* comparte.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = comparte.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FD8DBCB1550800200B080FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FD02E6A1566908600165CC7 /* MapKit.framework in Frameworks */,
+				7FCB0A8C1565A29C00A653C5 /* AddressBook.framework in Frameworks */,
+				7F90BC8F155333CE00AEA44C /* Accounts.framework in Frameworks */,
+				7F90BC8D155333C600AEA44C /* Twitter.framework in Frameworks */,
+				7F90BC861553318B00AEA44C /* MessageUI.framework in Frameworks */,
+				7FD8DBD31550800200B080FD /* UIKit.framework in Frameworks */,
+				7FD8DBD51550800200B080FD /* Foundation.framework in Frameworks */,
+				7FD8DBD71550800200B080FD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FD8DBC31550800200B080FD = {
+			isa = PBXGroup;
+			children = (
+				7FD02E841566AF2C00165CC7 /* ContactoEmpresa.h */,
+				7FD02E851566AF2C00165CC7 /* ContactoEmpresa.m */,
+				7FD02E691566908600165CC7 /* MapKit.framework */,
+				7FCB0A8B1565A29C00A653C5 /* AddressBook.framework */,
+				7FD0EC821563069B004E81E8 /* Settings.bundle */,
+				7FD0EC311562D10B004E81E8 /* icono copia.png */,
+				7FD0EC2D1562CC25004E81E8 /* icon.png */,
+				7FD2766F15618A2B004AAE15 /* Candidatos.h */,
+				7FD2767015618A2B004AAE15 /* Candidatos.m */,
+				7FEE7D77155812740075A585 /* voxClase.h */,
+				7FEE7D78155812740075A585 /* voxClase.m */,
+				7FEE7D641558107E0075A585 /* lib */,
+				7FA1B1AF1554466100B4B600 /* denuncia.h */,
+				7FA1B1B01554466100B4B600 /* denuncia.m */,
+				7F90BC8E155333CE00AEA44C /* Accounts.framework */,
+				7F90BC8C155333C600AEA44C /* Twitter.framework */,
+				7F90BC851553318B00AEA44C /* MessageUI.framework */,
+				7FF7DBCA1551F232002BD8F3 /* comparte.h */,
+				7FF7DBCB1551F232002BD8F3 /* comparte.m */,
+				7FF7DBC31551EDEC002BD8F3 /* Noticias.h */,
+				7FF7DBC41551EDEC002BD8F3 /* Noticias.m */,
+				7FD8DBFA15508F9000B080FD /* img */,
+				7FD8DBF71550861F00B080FD /* Perfil.h */,
+				7FD8DBF81550861F00B080FD /* Perfil.m */,
+				7FD8DBD81550800200B080FD /* Elecciones 2012 */,
+				7FD8DBD11550800200B080FD /* Frameworks */,
+				7FD8DBCF1550800200B080FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FD8DBCF1550800200B080FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FD8DBCE1550800200B080FD /* Elecciones.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FD8DBD11550800200B080FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FD8DBD21550800200B080FD /* UIKit.framework */,
+				7FD8DBD41550800200B080FD /* Foundation.framework */,
+				7FD8DBD61550800200B080FD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7FD8DBD81550800200B080FD /* Elecciones 2012 */ = {
+			isa = PBXGroup;
+			children = (
+				7FD8DBE11550800200B080FD /* Elecciones_2012AppDelegate.h */,
+				7FD8DBE21550800200B080FD /* Elecciones_2012AppDelegate.m */,
+				7FD8DBE41550800200B080FD /* MainStoryboard.storyboard */,
+				7FD8DBE71550800200B080FD /* Elecciones_2012ViewController.h */,
+				7FD8DBE81550800200B080FD /* Elecciones_2012ViewController.m */,
+				7FD8DBD91550800200B080FD /* Supporting Files */,
+			);
+			path = "Elecciones 2012";
+			sourceTree = "<group>";
+		};
+		7FD8DBD91550800200B080FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FD8DBDA1550800200B080FD /* Elecciones 2012-Info.plist */,
+				7FD8DBDB1550800200B080FD /* InfoPlist.strings */,
+				7FD8DBDE1550800200B080FD /* main.m */,
+				7FD8DBE01550800200B080FD /* Elecciones 2012-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7FD8DBFA15508F9000B080FD /* img */ = {
+			isa = PBXGroup;
+			children = (
+				7F39A1E915A48ADB004A034F /* tlax.png */,
+				7FD02E821566A9E300165CC7 /* info.png */,
+				7FD02E741566A66400165CC7 /* fipadeBrown.png */,
+				7FD02E751566A66400165CC7 /* fipadeLogo.png */,
+				7F39A1EC15A48C1C004A034F /* captura.png */,
+				7FD02E761566A66400165CC7 /* fipadeYellow.png */,
+				7FD02E721566982800165CC7 /* ubicacion_.png */,
+				7FCB0A951565B90100A653C5 /* ubicacion.png */,
+				7FCB0A911565A92F00A653C5 /* backWeb.png */,
+				7FCB0A921565A92F00A653C5 /* goWeb.png */,
+				7FCB0A8F1565A76600A653C5 /* ask.png */,
+				7FCB0A8D1565A5BB00A653C5 /* Agregar01.png */,
+				7FCB0A881565A1FC00A653C5 /* fepade.png */,
+				7FC2A27F15656B1100693759 /* pana_nitoBanner.png */,
+				7FC2A27A1565580500693759 /* ife_.png */,
+				7FC2A27B1565580500693759 /* ife.jpg */,
+				7FD0EC2F1562D0E8004E81E8 /* icono.png */,
+				7FD0EC271562C5B3004E81E8 /* denuncia.png */,
+				7FD0EC281562C5B3004E81E8 /* noticias.png */,
+				7FD0EC291562C5B3004E81E8 /* vox.png */,
+				7FD0EC231562C5AA004E81E8 /* candidatos.png */,
+				7FD0EC241562C5AA004E81E8 /* perfil.png */,
+				7FD0EC1B1562BDB4004E81E8 /* aceptar.png */,
+				7FD0EC1C1562BDB4004E81E8 /* capturar.png */,
+				7FD0EC1D1562BDB4004E81E8 /* compartir.png */,
+				7FD0EC1E1562BDB4004E81E8 /* estado.png */,
+				7FD0EC191562B9FD004E81E8 /* lupa.png */,
+				7FD0EC0F1562AA22004E81E8 /* backfoto.png */,
+				7FD0EC131562AB3A004E81E8 /* mail.png */,
+				7FD0EC0B1562A731004E81E8 /* cel01.png */,
+				7FD0EBFB15629EC8004E81E8 /* save.png */,
+				7FD0EC111562AADB004E81E8 /* foto.png */,
+				7FD0EC091562A428004E81E8 /* check.png */,
+				7FD0EBF915629B03004E81E8 /* back.png */,
+				7FD0EBFD1562A006004E81E8 /* save01.png */,
+				7FD0EBFE1562A006004E81E8 /* tweet.png */,
+				7FD0EBF21562990A004E81E8 /* head.png */,
+				7FD27663156186DB004AAE15 /* banneramlo.png */,
+				7FD27664156186DB004AAE15 /* bannerjvm.png */,
+				7FD0EC051562A14C004E81E8 /* web1.png */,
+				7FD0EC061562A14C004E81E8 /* web2.png */,
+				7FD0EC0D1562A7E5004E81E8 /* cel02.png */,
+				7FD27665156186DB004AAE15 /* bannernieto.png */,
+				7FD27666156186DB004AAE15 /* bannerquadri.png */,
+				7FD0EC031562A10D004E81E8 /* web.png */,
+				7FD2765B15618359004AAE15 /* perfilAmlo.png */,
+				7FD2765C15618359004AAE15 /* perfilJvm.png */,
+				7FD2765D15618359004AAE15 /* perfilNieto.png */,
+				7FD0EC011562A064004E81E8 /* sv.png */,
+				7FD2765E15618359004AAE15 /* perfilquadri.png */,
+				7FD2765015618193004AAE15 /* a.png */,
+				7FD2765115618193004AAE15 /* e.png */,
+				7FD2766B156189BB004AAE15 /* alianza.png */,
+				7FD2766D15618A00004AAE15 /* alianza1.png */,
+				7FD2765215618193004AAE15 /* j.png */,
+				7FD2765315618193004AAE15 /* q.png */,
+				7FD27659156181FF004AAE15 /* q1.png */,
+				7FC30D1515588ABE00D940DA /* elipse.png */,
+				7FC30D0615584F1200D940DA /* amlo.jpg */,
+				7FC30D0F15584FB400D940DA /* nuevaalianza.png */,
+				7FC30D0715584F1200D940DA /* jvm.jpeg */,
+				7FC30D0815584F1200D940DA /* nieto.jpeg */,
+				7FC30D0915584F1200D940DA /* quadri.jpeg */,
+				7FE52FD115545D7D0028F057 /* fondo.png */,
+				7FD8DBFB1550908800B080FD /* pan.png */,
+				7FD8DBFC1550908800B080FD /* prd.jpeg */,
+				7FD8DBFD1550908800B080FD /* pri.jpeg */,
+				7FF7DBBB1551DFB5002BD8F3 /* 1.jpeg */,
+				7FF7DBBC1551DFB5002BD8F3 /* pan2.png */,
+				7FF7DBBD1551DFB5002BD8F3 /* prd3.png */,
+				7FF7DBC11551E9FF002BD8F3 /* movc.png */,
+				7FF7DB791551DBC7002BD8F3 /* estados */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+		7FEE7D641558107E0075A585 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				7FEE7D651558107E0075A585 /* JSON */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		7FEE7D651558107E0075A585 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				7FEE7D661558107E0075A585 /* JSON.h */,
+				7FEE7D671558107E0075A585 /* NSObject+SBJSON.h */,
+				7FEE7D681558107E0075A585 /* NSObject+SBJSON.m */,
+				7FEE7D691558107E0075A585 /* NSString+SBJSON.h */,
+				7FEE7D6A1558107E0075A585 /* NSString+SBJSON.m */,
+				7FEE7D6B1558107E0075A585 /* SBJsonBase.h */,
+				7FEE7D6C1558107E0075A585 /* SBJsonBase.m */,
+				7FEE7D6D1558107E0075A585 /* SBJsonParser.h */,
+				7FEE7D6E1558107E0075A585 /* SBJsonParser.m */,
+				7FEE7D6F1558107E0075A585 /* SBJsonWriter.h */,
+				7FEE7D701558107E0075A585 /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		7FF7DB791551DBC7002BD8F3 /* estados */ = {
+			isa = PBXGroup;
+			children = (
+				7FF7DB7A1551DBC7002BD8F3 /* Aguascalientes.png */,
+				7FF7DB7B1551DBC7002BD8F3 /* Baja-California-Sur.png */,
+				7FF7DB7C1551DBC7002BD8F3 /* Baja-California.png */,
+				7FF7DB7D1551DBC7002BD8F3 /* Campeche.png */,
+				7FF7DB7E1551DBC7002BD8F3 /* Chiapas.png */,
+				7FF7DB7F1551DBC7002BD8F3 /* Chihuahua.png */,
+				7FF7DB801551DBC7002BD8F3 /* Coahuila.png */,
+				7FF7DB811551DBC7002BD8F3 /* Colima.png */,
+				7FF7DB821551DBC7002BD8F3 /* DF.png */,
+				7FF7DB831551DBC7002BD8F3 /* Durango.png */,
+				7FF7DB841551DBC7002BD8F3 /* EstadoDeMexico.png */,
+				7FF7DB851551DBC7002BD8F3 /* Guanajuato.png */,
+				7FF7DB861551DBC7002BD8F3 /* Guerrero.png */,
+				7FF7DB871551DBC7002BD8F3 /* Hidalgo.png */,
+				7FF7DB881551DBC7002BD8F3 /* Jalisco.png */,
+				7FF7DB891551DBC7002BD8F3 /* Michoacan.png */,
+				7FF7DB8A1551DBC7002BD8F3 /* Morelos.png */,
+				7FF7DB8B1551DBC7002BD8F3 /* Nayarit.png */,
+				7FF7DB8C1551DBC7002BD8F3 /* Nuevo-Leon.png */,
+				7FF7DB8D1551DBC7002BD8F3 /* Oxaca.png */,
+				7FF7DB8E1551DBC7002BD8F3 /* Puebla.png */,
+				7FF7DB8F1551DBC7002BD8F3 /* Queretaro.png */,
+				7FF7DB901551DBC7002BD8F3 /* quintana-roo.png */,
+				7FF7DB911551DBC7002BD8F3 /* san-luis-potosi.png */,
+				7FF7DB921551DBC7002BD8F3 /* Sinaloa.png */,
+				7FF7DB931551DBC7002BD8F3 /* sonora.png */,
+				7FF7DB941551DBC7002BD8F3 /* tabasco.png */,
+				7FF7DB951551DBC7002BD8F3 /* tamaulipas.png */,
+				7FF7DB961551DBC7002BD8F3 /* tlaxcala.png */,
+				7FF7DB971551DBC7002BD8F3 /* veracruz.png */,
+				7FF7DB981551DBC7002BD8F3 /* yucatan.png */,
+				7FF7DB991551DBC7002BD8F3 /* Zacatecas.png */,
+			);
+			path = estados;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FD8DBCD1550800200B080FD /* Elecciones 2012 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FD8DBEC1550800200B080FD /* Build configuration list for PBXNativeTarget "Elecciones 2012" */;
+			buildPhases = (
+				7FD8DBCA1550800200B080FD /* Sources */,
+				7FD8DBCB1550800200B080FD /* Frameworks */,
+				7FD8DBCC1550800200B080FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Elecciones 2012";
+			productName = "Elecciones 2012";
+			productReference = 7FD8DBCE1550800200B080FD /* Elecciones.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FD8DBC51550800200B080FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = "Elecciones 2012";
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = ASTA;
+			};
+			buildConfigurationList = 7FD8DBC81550800200B080FD /* Build configuration list for PBXProject "Elecciones 2012" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7FD8DBC31550800200B080FD;
+			productRefGroup = 7FD8DBCF1550800200B080FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FD8DBCD1550800200B080FD /* Elecciones 2012 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FD8DBCC1550800200B080FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FD8DBDD1550800200B080FD /* InfoPlist.strings in Resources */,
+				7FD8DBE61550800200B080FD /* MainStoryboard.storyboard in Resources */,
+				7FD8DBFE1550908800B080FD /* pan.png in Resources */,
+				7FD8DBFF1550908800B080FD /* prd.jpeg in Resources */,
+				7FD8DC001550908800B080FD /* pri.jpeg in Resources */,
+				7FF7DB9A1551DBC7002BD8F3 /* Aguascalientes.png in Resources */,
+				7FF7DB9B1551DBC7002BD8F3 /* Baja-California-Sur.png in Resources */,
+				7FF7DB9C1551DBC7002BD8F3 /* Baja-California.png in Resources */,
+				7FF7DB9D1551DBC7002BD8F3 /* Campeche.png in Resources */,
+				7FF7DB9E1551DBC7002BD8F3 /* Chiapas.png in Resources */,
+				7FF7DB9F1551DBC7002BD8F3 /* Chihuahua.png in Resources */,
+				7FF7DBA01551DBC7002BD8F3 /* Coahuila.png in Resources */,
+				7FF7DBA11551DBC7002BD8F3 /* Colima.png in Resources */,
+				7FF7DBA21551DBC7002BD8F3 /* DF.png in Resources */,
+				7FF7DBA31551DBC7002BD8F3 /* Durango.png in Resources */,
+				7FF7DBA41551DBC7002BD8F3 /* EstadoDeMexico.png in Resources */,
+				7FF7DBA51551DBC7002BD8F3 /* Guanajuato.png in Resources */,
+				7FF7DBA61551DBC7002BD8F3 /* Guerrero.png in Resources */,
+				7FF7DBA71551DBC7002BD8F3 /* Hidalgo.png in Resources */,
+				7FF7DBA81551DBC7002BD8F3 /* Jalisco.png in Resources */,
+				7FF7DBA91551DBC7002BD8F3 /* Michoacan.png in Resources */,
+				7FF7DBAA1551DBC7002BD8F3 /* Morelos.png in Resources */,
+				7FF7DBAB1551DBC7002BD8F3 /* Nayarit.png in Resources */,
+				7FF7DBAC1551DBC7002BD8F3 /* Nuevo-Leon.png in Resources */,
+				7FF7DBAD1551DBC7002BD8F3 /* Oxaca.png in Resources */,
+				7FF7DBAE1551DBC7002BD8F3 /* Puebla.png in Resources */,
+				7FF7DBAF1551DBC7002BD8F3 /* Queretaro.png in Resources */,
+				7FF7DBB01551DBC7002BD8F3 /* quintana-roo.png in Resources */,
+				7FF7DBB11551DBC7002BD8F3 /* san-luis-potosi.png in Resources */,
+				7FF7DBB21551DBC7002BD8F3 /* Sinaloa.png in Resources */,
+				7FF7DBB31551DBC7002BD8F3 /* sonora.png in Resources */,
+				7FF7DBB41551DBC7002BD8F3 /* tabasco.png in Resources */,
+				7FF7DBB51551DBC7002BD8F3 /* tamaulipas.png in Resources */,
+				7FF7DBB61551DBC7002BD8F3 /* tlaxcala.png in Resources */,
+				7FF7DBB71551DBC7002BD8F3 /* veracruz.png in Resources */,
+				7FF7DBB81551DBC7002BD8F3 /* yucatan.png in Resources */,
+				7FF7DBB91551DBC7002BD8F3 /* Zacatecas.png in Resources */,
+				7FF7DBBE1551DFB5002BD8F3 /* 1.jpeg in Resources */,
+				7FF7DBBF1551DFB5002BD8F3 /* pan2.png in Resources */,
+				7FF7DBC01551DFB5002BD8F3 /* prd3.png in Resources */,
+				7FF7DBC21551E9FF002BD8F3 /* movc.png in Resources */,
+				7FE52FD215545D7D0028F057 /* fondo.png in Resources */,
+				7FC30D0A15584F1200D940DA /* amlo.jpg in Resources */,
+				7FC30D0B15584F1200D940DA /* jvm.jpeg in Resources */,
+				7FC30D0C15584F1200D940DA /* nieto.jpeg in Resources */,
+				7FC30D0D15584F1200D940DA /* quadri.jpeg in Resources */,
+				7FC30D1015584FB400D940DA /* nuevaalianza.png in Resources */,
+				7FC30D1615588ABE00D940DA /* elipse.png in Resources */,
+				7FD2765415618193004AAE15 /* a.png in Resources */,
+				7FD2765515618193004AAE15 /* e.png in Resources */,
+				7FD2765615618193004AAE15 /* j.png in Resources */,
+				7FD2765715618193004AAE15 /* q.png in Resources */,
+				7FD2765A156181FF004AAE15 /* q1.png in Resources */,
+				7FD2765F15618359004AAE15 /* perfilAmlo.png in Resources */,
+				7FD2766015618359004AAE15 /* perfilJvm.png in Resources */,
+				7FD2766115618359004AAE15 /* perfilNieto.png in Resources */,
+				7FD2766215618359004AAE15 /* perfilquadri.png in Resources */,
+				7FD27667156186DB004AAE15 /* banneramlo.png in Resources */,
+				7FD27668156186DB004AAE15 /* bannerjvm.png in Resources */,
+				7FD27669156186DB004AAE15 /* bannernieto.png in Resources */,
+				7FD2766A156186DB004AAE15 /* bannerquadri.png in Resources */,
+				7FD2766C156189BB004AAE15 /* alianza.png in Resources */,
+				7FD2766E15618A00004AAE15 /* alianza1.png in Resources */,
+				7FD0EBF31562990A004E81E8 /* head.png in Resources */,
+				7FD0EBFA15629B03004E81E8 /* back.png in Resources */,
+				7FD0EBFC15629EC8004E81E8 /* save.png in Resources */,
+				7FD0EBFF1562A006004E81E8 /* save01.png in Resources */,
+				7FD0EC001562A006004E81E8 /* tweet.png in Resources */,
+				7FD0EC021562A064004E81E8 /* sv.png in Resources */,
+				7FD0EC041562A10D004E81E8 /* web.png in Resources */,
+				7FD0EC071562A14C004E81E8 /* web1.png in Resources */,
+				7FD0EC081562A14C004E81E8 /* web2.png in Resources */,
+				7FD0EC0A1562A428004E81E8 /* check.png in Resources */,
+				7FD0EC0C1562A731004E81E8 /* cel01.png in Resources */,
+				7FD0EC0E1562A7E5004E81E8 /* cel02.png in Resources */,
+				7FD0EC101562AA22004E81E8 /* backfoto.png in Resources */,
+				7FD0EC121562AADB004E81E8 /* foto.png in Resources */,
+				7FD0EC141562AB3A004E81E8 /* mail.png in Resources */,
+				7FD0EC1A1562B9FD004E81E8 /* lupa.png in Resources */,
+				7FD0EC1F1562BDB4004E81E8 /* aceptar.png in Resources */,
+				7FD0EC201562BDB4004E81E8 /* capturar.png in Resources */,
+				7FD0EC211562BDB4004E81E8 /* compartir.png in Resources */,
+				7FD0EC221562BDB4004E81E8 /* estado.png in Resources */,
+				7FD0EC251562C5AA004E81E8 /* candidatos.png in Resources */,
+				7FD0EC261562C5AA004E81E8 /* perfil.png in Resources */,
+				7FD0EC2A1562C5B3004E81E8 /* denuncia.png in Resources */,
+				7FD0EC2B1562C5B3004E81E8 /* noticias.png in Resources */,
+				7FD0EC2C1562C5B3004E81E8 /* vox.png in Resources */,
+				7FD0EC301562D0E8004E81E8 /* icono.png in Resources */,
+				7FD0EC321562D10B004E81E8 /* icono copia.png in Resources */,
+				7FD0EC831563069B004E81E8 /* Settings.bundle in Resources */,
+				7FC2A27C1565580500693759 /* ife_.png in Resources */,
+				7FC2A27D1565580500693759 /* ife.jpg in Resources */,
+				7FC2A28015656B1100693759 /* pana_nitoBanner.png in Resources */,
+				7FCB0A891565A1FC00A653C5 /* fepade.png in Resources */,
+				7FCB0A8E1565A5BB00A653C5 /* Agregar01.png in Resources */,
+				7FCB0A901565A76600A653C5 /* ask.png in Resources */,
+				7FCB0A931565A92F00A653C5 /* backWeb.png in Resources */,
+				7FCB0A941565A92F00A653C5 /* goWeb.png in Resources */,
+				7FCB0A961565B90100A653C5 /* ubicacion.png in Resources */,
+				7FD02E731566982800165CC7 /* ubicacion_.png in Resources */,
+				7FD02E771566A66400165CC7 /* fipadeBrown.png in Resources */,
+				7FD02E781566A66400165CC7 /* fipadeLogo.png in Resources */,
+				7FD02E791566A66400165CC7 /* fipadeYellow.png in Resources */,
+				7FD02E831566A9E300165CC7 /* info.png in Resources */,
+				7F39A1EA15A48ADB004A034F /* tlax.png in Resources */,
+				7F39A1ED15A48C1C004A034F /* captura.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FD8DBCA1550800200B080FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FD8DBDF1550800200B080FD /* main.m in Sources */,
+				7FD8DBE31550800200B080FD /* Elecciones_2012AppDelegate.m in Sources */,
+				7FD8DBE91550800200B080FD /* Elecciones_2012ViewController.m in Sources */,
+				7FD8DBF91550861F00B080FD /* Perfil.m in Sources */,
+				7FF7DBC51551EDEC002BD8F3 /* Noticias.m in Sources */,
+				7FF7DBCC1551F232002BD8F3 /* comparte.m in Sources */,
+				7FA1B1B11554466100B4B600 /* denuncia.m in Sources */,
+				7FEE7D711558107E0075A585 /* NSObject+SBJSON.m in Sources */,
+				7FEE7D721558107E0075A585 /* NSString+SBJSON.m in Sources */,
+				7FEE7D731558107E0075A585 /* SBJsonBase.m in Sources */,
+				7FEE7D741558107E0075A585 /* SBJsonParser.m in Sources */,
+				7FEE7D751558107E0075A585 /* SBJsonWriter.m in Sources */,
+				7FEE7D79155812740075A585 /* voxClase.m in Sources */,
+				7FD2767115618A2B004AAE15 /* Candidatos.m in Sources */,
+				7FD02E861566AF2C00165CC7 /* ContactoEmpresa.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7FD8DBDB1550800200B080FD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FD8DBDC1550800200B080FD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7FD8DBE41550800200B080FD /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FD8DBE51550800200B080FD /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7FD02E871566C97500165CC7 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Distribution;
+		};
+		7FD02E881566C97500165CC7 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Fundacion Interdisciplinaria para el Desarrollo Empresarial S. de R.L. de C.V.";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Elecciones 2012/Elecciones 2012-Prefix.pch";
+				INFOPLIST_FILE = "Elecciones 2012/Elecciones 2012-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = Elecciones;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "687B71F5-3762-432B-9C62-AF1FDEA70D7D";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
+		7FD8DBEA1550800200B080FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7FD8DBEB1550800200B080FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FD8DBED1550800200B080FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Elecciones 2012/Elecciones 2012-Prefix.pch";
+				INFOPLIST_FILE = "Elecciones 2012/Elecciones 2012-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = Elecciones;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7FD8DBEE1550800200B080FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Elecciones 2012/Elecciones 2012-Prefix.pch";
+				INFOPLIST_FILE = "Elecciones 2012/Elecciones 2012-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = Elecciones;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FD8DBC81550800200B080FD /* Build configuration list for PBXProject "Elecciones 2012" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FD8DBEA1550800200B080FD /* Debug */,
+				7FD02E871566C97500165CC7 /* Distribution */,
+				7FD8DBEB1550800200B080FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FD8DBEC1550800200B080FD /* Build configuration list for PBXNativeTarget "Elecciones 2012" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FD8DBED1550800200B080FD /* Debug */,
+				7FD02E881566C97500165CC7 /* Distribution */,
+				7FD8DBEE1550800200B080FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FD8DBC51550800200B080FD /* Project object */;
+}
